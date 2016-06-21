@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+    <head>
+        <operation>submit</operation>
+        <login>sms_user</login>
+        <password>sms_pass_for_sms_user</password>
+        <title>NetworkTeam</title>
+        <scheduled>{{ datetimerep }}</scheduled>
+        <isbulk>false</isbulk>
+        <controlid>{{ cid }}</controlid>
+    </head>
+    <body>
+        <msisdn>994555646423</msisdn>
+        <message>{{ message }}</message>
+    </body>
+</request>
