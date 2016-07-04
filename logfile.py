@@ -14,13 +14,13 @@ import re
 #    print(line)
 #    count = count + 1
 
-with open(os.getcwd()+'/logfromkiwi.log', 'r+') as logfile:
+with open(os.getcwd()+'/logfromsyslog.log', 'r+') as logfile:
     for line in logfile.readlines():
         struct = re.split(r'[\s]\s*', line)
         #result = (struct[3], struct[23], struct[24], struct[25], struct[26])
         result = (struct[5], 'Int '+struct[16][-4:], struct[24])
         ctuptoline = ' '.join(result)
-        with open('outofkiwilog.log', 'a') as out:
+        with open('outofkiwilog.log', 'wa') as out:
             out.write(ctuptoline)
             out.write('\n')
 ctupline = open('outofkiwilog.log', 'r')

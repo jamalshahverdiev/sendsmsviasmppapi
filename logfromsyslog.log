@@ -1,2 +1,0 @@
-2016-06-17 11:04:14 Local7.Notice   metro_elmler.bvim.gov.lan   75: Metro_Elmler: 000071: Jun 17 11:04:13.502: %OSPF-5-ADJCHG: Process 100, Nbr 10.40.4.22 on GigabitEthernet0/11 from FULL to DOWN, Neighbor Down: Interface down or detached
-2016-06-17 11:04:16 Local7.Notice   metro28_sw.bvim.gov.lan 129: Metro_28: 000126: Jun 17 12:04:15.502: %OSPF-5-ADJCHG: Process 100, Nbr 10.40.4.33 on GigabitEthernet4/0/25 from FULL to DOWN, Neighbor Down: Interface down or detached
